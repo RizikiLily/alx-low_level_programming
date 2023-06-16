@@ -11,7 +11,7 @@ int main(void)
 	while (alpha <= 'z')
 	{
 		if (alpha != 'e' || alpha != 'q')
-		putchar(alpha);
+			putchar(alpha);
 		++alpha;
 	}
 	putchar('\n');
