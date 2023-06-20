@@ -11,10 +11,10 @@ int main(void)
 	long int next;
 
 	printf("%ld, %ld, ", first, second);
-	while (i != 48)
+	while (i != 49)
 	{
 		next = first + second;
-		if (i == 48)
+		if (i == 49)
 			printf("%ld", next);
 		else
 			printf("%ld, ", next);
