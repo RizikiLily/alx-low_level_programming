@@ -22,5 +22,6 @@ int main(void)
 		second = next;
 		i++;
 	}
+	printf("\n");
 	return (0);
 }
