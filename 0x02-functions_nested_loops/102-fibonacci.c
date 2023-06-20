@@ -14,7 +14,7 @@ int main(void)
 	while (i != 49)
 	{
 		next = first + second;
-		if (i == 49)
+		if (i == 48)
 			printf("%ld", next);
 		else
 			printf("%ld, ", next);
