@@ -6,18 +6,18 @@
 int main(void)
 {
 	int i = 1;
-	int first = 1;
-	int second = 2;
-	int next;
+	long long int first = 1;
+	long long int second = 2;
+	long long int next;
 
-	printf("%d, %d, ", first, second);
+	printf("%lld, %lld, ", first, second);
 	while (i != 48)
 	{
 		next = first + second;
 		if (i == 48)
-			printf("%d", next);
+			printf("%lld", next);
 		else
-			printf("%d, ", next);
+			printf("%lld, ", next);
 		first = second;
 		second = next;
 		i++;
