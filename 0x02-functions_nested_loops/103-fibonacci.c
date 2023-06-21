@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long firs = 1;
+	long first = 1;
 	long second = 2;
 	long next;
 	long sum = 2;
