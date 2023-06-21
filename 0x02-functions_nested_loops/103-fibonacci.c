@@ -7,7 +7,7 @@ int main(void)
 {
 	long first = 1;
 	long second = 2;
-	long next;
+	long next = 0;
 	long sum = 2;
 
 	while (next < 4000000)
