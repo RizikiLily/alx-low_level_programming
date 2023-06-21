@@ -11,10 +11,10 @@ int main(void)
 	long int next;
 
 	printf("%ld, %ld, ", first, second);
-	while (i <= 95)
+	while (i <= 98)
 	{
 		next = first + second;
-		if (i == 95)
+		if (i == 98)
 			printf("%ld", next);
 		else
 			printf("%ld, ", next);
