@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** puts_half - prints secind half of the string
+/**
+ * puts_half - prints secind half of the string
  * @str: strinf to be manipulated
  * Return: nothing
  */
@@ -18,4 +19,3 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
-	
