@@ -1,9 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
 
-#include <stdlib.h>
-#include "dog.h"
-
 /**
  * struct dog - a varibale of type struct dog
  * @name: name of the dog
