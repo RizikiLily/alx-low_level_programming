@@ -1,2 +1,2 @@
-pointer to functions
+pointer to functions concept
 
